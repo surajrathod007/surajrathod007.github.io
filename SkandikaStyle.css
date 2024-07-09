@@ -2,12 +2,11 @@
   background: center no-repeat url(https://skandika.com/wp-content/uploads/Startseite_Landschaft.jpg);
 }
 
-.logo {
-  background-image: url(https://skandika.com/wp-content/uploads/Logo-Skandika-Schwarz.png);
-}
+
 
 .progressBar {
   background-color: rgb(45, 56, 56) !important;
+  display: none;
 }
 
 .splash {
