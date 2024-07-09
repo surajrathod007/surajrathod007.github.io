@@ -1,9 +1,9 @@
 .background {
-  background: center no-repeat url(https://file-examples.com/storage/fe7bf81a86668bb0a9d006b/2017/10/file_example_JPG_100kB.jpg);
+  background: center no-repeat url(https://skandika.com/wp-content/uploads/Startseite_Landschaft.jpg);
 }
 
 .logo {
-  background-image: url(https://file-examples.com/storage/fe7bf81a86668bb0a9d006b/2017/10/file_example_JPG_100kB.jpg);
+  background-image: url(https://skandika.com/wp-content/uploads/Logo-Skandika-Schwarz.png);
 }
 
 .progressBar {
@@ -11,10 +11,10 @@
 }
 
 .splash {
-  background-image: url(https://file-examples.com/storage/fe7bf81a86668bb0a9d006b/2017/10/file_example_JPG_100kB.jpg);
+  background-image: url(https://skandika.com/wp-content/uploads/Logo-Skandika-Schwarz.png);
 }
 
 .watermark {
-  background-image: url(https://file-examples.com/storage/fe7bf81a86668bb0a9d006b/2017/10/file_example_JPG_100kB.jpg);
+  background-image: url(https://skandika.com/wp-content/uploads/Logo-Skandika-Schwarz.png);
   background-size: 57px 57px;
 }
