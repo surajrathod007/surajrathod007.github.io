@@ -7,7 +7,7 @@
 }
 
 .progressBar {
-  background-color: rgb(45, 56, 56);
+  background-color: rgb(45, 56, 56) !important;
 }
 
 .splash {
