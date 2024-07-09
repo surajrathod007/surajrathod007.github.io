@@ -1,0 +1,20 @@
+.background {
+  background: center no-repeat url(https://file-examples.com/storage/fe7bf81a86668bb0a9d006b/2017/10/file_example_JPG_100kB.jpg);
+}
+
+.logo {
+  background-image: url(https://file-examples.com/storage/fe7bf81a86668bb0a9d006b/2017/10/file_example_JPG_100kB.jpg);
+}
+
+.progressBar {
+  background-color: rgb(238, 255, 65);
+}
+
+.splash {
+  background-image: url(https://file-examples.com/storage/fe7bf81a86668bb0a9d006b/2017/10/file_example_JPG_100kB.jpg);
+}
+
+.watermark {
+  background-image: url(https://file-examples.com/storage/fe7bf81a86668bb0a9d006b/2017/10/file_example_JPG_100kB.jpg);
+  background-size: 57px 57px;
+}
