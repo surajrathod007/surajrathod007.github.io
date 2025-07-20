@@ -17,15 +17,17 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>SurajSinh;s Portfolio</title>
+  <title>SurajSinh Rathod</title>
   <link rel="manifest" href="manifest.json">
 
   <!-- Add CSS files for Three.js visualization -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/three.css">
 
+  <!-- Lottie Web Component -->
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+
   <style>
-    /* Preloader Styling */
     body {
       margin: 0;
       overflow: hidden;
@@ -47,30 +49,6 @@
       flex-direction: column;
     }
 
-    #loading-screen h1 {
-      color: white;
-      font-size: 3rem;
-      animation: fadeInOut 2s infinite;
-      max-width: 90vw;
-      text-align: center;
-    }
-
-    /* Blinking Animation */
-    @keyframes fadeInOut {
-      0% {
-        opacity: 0.3;
-      }
-
-      50% {
-        opacity: 1;
-      }
-
-      100% {
-        opacity: 0.3;
-      }
-    }
-
-    /* Fade out when Flutter loads */
     .fade-out {
       animation: fadeOut 0.5s forwards;
     }
@@ -85,56 +63,36 @@
         display: none;
       }
     }
+
+    dotlottie-wc {
+      width: 300px;
+      height: 300px;
+      max-width: 80vw;
+      max-height: 80vh;
+    }
   </style>
 </head>
 
 <body>
 
-  <!-- Preloader with PNG -->
-  <div id="loading-screen">
-    <h1>Loading...</h1>
-  </div>
-  <script>
-    // Remove the loading screen with fade-out effect when Flutter is ready
-    window.addEventListener('flutter-first-frame', function () {
-      console.log('Flutter first frame rendered');
-      document.getElementById('loading-screen').classList.add('fade-out');
-    });
-  </script>
+<!-- Preloader with local Lottie JSON -->
+<div id="loading-screen">
+  <dotlottie-wc
+          src="assets/mainLoader.lottie"
+          autoplay
+          loop
+          speed="0.5">
+  </dotlottie-wc>
+</div>
 
-  <!-- Shader scripts for Three.js -->
-  <script type="x-shader/x-vertex" id="vertexshader">
-    attribute float size;
-    attribute vec3 customColor;
-    varying vec3 vColor;
+<script>
+  window.addEventListener('flutter-first-frame', function () {
+    document.getElementById('loading-screen').classList.add('fade-out');
+  });
+</script>
 
-    void main() {
-      vColor = customColor;
-      vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
-      gl_PointSize = size * (300.0 / -mvPosition.z);
-      gl_Position = projectionMatrix * mvPosition;
-    }
-  </script>
-  <script type="x-shader/x-fragment" id="fragmentshader">
-    uniform vec3 color;
-    uniform sampler2D pointTexture;
-
-    varying vec3 vColor;
-
-    void main() {
-      gl_FragColor = vec4(color * vColor, 1.0);
-      gl_FragColor = gl_FragColor * texture2D(pointTexture, gl_PointCoord);
-    }
-  </script>
-
-  <!-- Include Three.js and custom scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="scripts/particletextmix.js"></script>
-  <script src="scripts/vanta_rings.js"></script>
-  <script src="scripts/threejs_init.js"></script>
-
-  <!-- Flutter bootstrap script -->
-  <script src="flutter_bootstrap.js" async></script>
+<!-- Flutter bootstrap script -->
+<script src="flutter_bootstrap.js" async></script>
 </body>
 
 </html>
