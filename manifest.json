@@ -1,11 +1,11 @@
 {
-    "name": "suraj_portfolio",
-    "short_name": "suraj_portfolio",
+    "name": "SurajSinh Rathod",
+    "short_name": "",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Software engineer",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
