@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe061d41-1945-45a4-bcd6-bd0f97426aad" name="Changes" comment="fix: minor correction" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;surajrathod007&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="81219d9d-f68e-483d-a44f-e470537dddaf" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/surajrathod007/surajrathod007.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;81219d9d-f68e-483d-a44f-e470537dddaf&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2yBgnzZpmJeUyFCWwxiKGqy90aN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/suraj/AndroidStudioProjects/surajrathod007.github.io",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\suraj\AndroidStudioProjects\surajrathod007.github.io" />
+      <recent name="C:\Users\suraj\AndroidStudioProjects\surajrathod007.github.io\assets\video" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe061d41-1945-45a4-bcd6-bd0f97426aad" name="Changes" comment="" />
+      <created>1749313552023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749313552023</updated>
+    </task>
+    <task id="LOCAL-00001" summary="- added flutter app">
+      <option name="closed" value="true" />
+      <created>1749313626267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749313626267</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: slider_demo.mp4">
+      <option name="closed" value="true" />
+      <created>1752997658411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752997658411</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: flutter portfolio">
+      <option name="closed" value="true" />
+      <created>1753025159116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753025159116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hotfix: three js">
+      <option name="closed" value="true" />
+      <created>1753025569269</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753025569269</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: animation duration">
+      <option name="closed" value="true" />
+      <created>1753026337275</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753026337275</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: ready for prod">
+      <option name="closed" value="true" />
+      <created>1753522261716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753522261716</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: favicon, fix: auto resize loader">
+      <option name="closed" value="true" />
+      <created>1753523642664</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753523642664</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: bouncing scroll">
+      <option name="closed" value="true" />
+      <created>1753525103814</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753525103814</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: quick serve privacy policy">
+      <option name="closed" value="true" />
+      <created>1757218896366</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757218896366</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: minor correction">
+      <option name="closed" value="true" />
+      <created>1757219535070</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757219535070</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- added flutter app" />
+    <MESSAGE value="feat: slider_demo.mp4" />
+    <MESSAGE value="feat: flutter portfolio" />
+    <MESSAGE value="hotfix: three js" />
+    <MESSAGE value="fix: animation duration" />
+    <MESSAGE value="feat: ready for prod" />
+    <MESSAGE value="feat: favicon, fix: auto resize loader" />
+    <MESSAGE value="feat: bouncing scroll" />
+    <MESSAGE value="feat: quick serve privacy policy" />
+    <MESSAGE value="fix: minor correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: minor correction" />
+  </component>
+</project>
